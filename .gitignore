@@ -1,0 +1,5 @@
+/venv
+.env
+is_db_valid.py
+is_db_extracting_data_query.py
+is_db_conn_valid.py

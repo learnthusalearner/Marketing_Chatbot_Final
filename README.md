@@ -34,6 +34,20 @@ Intent Router
 
 ---
 
+---
+
+### Flow Summary
+
+- **User Prompt**: Free-form natural language input.
+- **Intent Router**: Classifies the input and routes it to the appropriate agent.
+- **Greeting Agent**: Handles casual greetings with minimal computation.
+- **Sequential Agent Pipeline**: Executes goal-oriented reasoning and data retrieval.
+- **Intent Elaborator**: Clarifies objectives and required information.
+- **Task Decomposer**: Breaks objectives into executable data tasks.
+- **Query Generator Agent**: Converts tasks into MongoDB queries.
+- **MongoDB Tool**: Executes queries iteratively until all prerequisites are satisfied.
+- **Structured Data Output**: Grounded data ready for insights or reports.
+
 ## End-to-End Workflow
 
 1. A user submits a free-text prompt.

@@ -1,0 +1,9 @@
+{
+  "name": "python-scheduler",
+  "version": "1.0.0",
+  "description": "Modular Python-based file ingestion system",
+  "scripts": {
+    "scheduler": "python main.py"
+  },
+  "dependencies": {}
+}

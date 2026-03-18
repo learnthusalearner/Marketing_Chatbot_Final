@@ -1,0 +1,7 @@
+pandas
+openpyxl
+pymongo
+python-dotenv
+watchdog
+
+dotenv
